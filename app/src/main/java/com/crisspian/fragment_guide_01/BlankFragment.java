@@ -13,6 +13,11 @@ import com.crisspian.fragment_guide_01.databinding.FragmentBlankBinding;
 
 public class BlankFragment extends Fragment {
 
+    public static BlankFragment newInstance(){
+        BlankFragment fragment=new BlankFragment();
+        return fragment;
+    }
+
     private FragmentBlankBinding binding;
     public static final int YES = 0;
     public static final int NO = 1;
